@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-This TestModule for TestDBStorage classes
-"""
+""" This TestModule for TestDBStorage classes """
 
 from datetime import datetime
 import inspect

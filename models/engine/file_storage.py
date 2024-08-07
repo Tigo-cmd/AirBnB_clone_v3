@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-This is Module FileStorage class
-"""
+""" This is Module FileStorage class """
 
 import json
 from models.amenity import Amenity

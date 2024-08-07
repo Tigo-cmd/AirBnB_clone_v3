@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-This testModule for functionalities
-"""
+""" This testModule for functionalities """
 
 from datetime import datetime
 import inspect
