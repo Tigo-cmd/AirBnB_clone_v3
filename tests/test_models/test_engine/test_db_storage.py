@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the TestDBStorageDocs and TestDBStorage classes
+This TestModule Contains the TestDBStorageDocs and TestDBStorage classes
 """
 
 from datetime import datetime
@@ -89,7 +89,8 @@ class TestFileStorage(unittest.TestCase):
 
     @unittest.skipIf(models.storage_t != 'db', "not testing db storage")
     def test_get(self, cls, id):
-        """tests the get method properly fro all functionalities"""
+        """tests the get method properly for all functionalities"""
+
         models.storage.reload()
         user = User(email="emmanwaliugo@gmail.com", password="123")
         models.storage.new(user)
@@ -110,6 +111,7 @@ class TestFileStorage(unittest.TestCase):
     @unittest.skipIf(models.storage_t != 'db', "not testing db storage")
     def test_count(self):
         """test the count id it returns accurate number of objects"""
+
         models.storage.reload()
         state = State(name="Abakaliki")
         user = User(email="ja161612040@gmail.com", password="234")
