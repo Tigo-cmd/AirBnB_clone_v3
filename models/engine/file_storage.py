@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This Module Contains the FileStorage class for all functionality
+This is Module FileStorage class
 """
 
 import json

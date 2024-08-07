@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This Module Contains the class DBStorage
+ DBStorage module
 """
 
 import models
@@ -21,7 +21,7 @@ classes = {"Amenity": Amenity, "City": City,
 
 
 class DBStorage:
-    """interaacts with the MySQL database"""
+    """interacts with the MySQL database"""
     __engine = None
     __session = None
 

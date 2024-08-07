@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This testModule Contains the TestFileStorageDocs classes for functionalities
+This testModule for functionalities
 """
 
 from datetime import datetime

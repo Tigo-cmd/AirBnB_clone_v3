@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This TestModule Contains the TestDBStorageDocs and TestDBStorage classes
+This TestModule for TestDBStorage classes
 """
 
 from datetime import datetime
